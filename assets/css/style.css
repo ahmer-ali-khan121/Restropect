@@ -1,0 +1,411 @@
+@import url("font-awesome.min.css");
+
+/* Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,h3
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+/*====================css=====================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+body{
+    font-family: arial;
+}
+body.landing{
+    padding: 0;
+}
+#header{
+   position: absolute;
+   background: transparent;
+   font-size: 1.25em;
+   padding: 2em 3em; 
+}
+#header.alt{
+    color: white;
+    text-align: right;
+    left: 0;
+    right: 0;
+}
+nav a{
+    color: white;
+}
+#header.alt h1{
+    float: left;
+    position: static;
+    color: inherit;   
+}
+#banner{
+    background-color: gray;
+    background-image: url('../img/banner.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 8em 0 11em 0;
+}
+.fa-diamond{
+    border: 2px solid white;
+    width: 80px;
+    height: 80px;
+    line-height: 80px !important;
+    border-radius: 50%;
+    text-align: center;
+    padding: 8px;
+}
+#banner h2{
+    font-size: 2em;
+    font-family: arial;
+    margin: 30px auto;
+}
+#banner p{
+    font-size: 1.5em;
+    font-family: arial;
+    margin: 20px auto 40px;
+}
+.learn {
+    background-color: #51baa4;
+    color: white;
+    font-size: 1.1em;
+    font-family: arial;
+    padding: 20px 40px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.wrapper.style{
+    background-color: #ebe8e8;
+    color: #777;
+    padding: 5em 0 4em 0;
+}
+.inner{
+    width: 65em;
+}
+.wrapper > .inner{
+    margin:0 auto ;
+}
+.images{
+    display: inline-block;
+    width: 48%;
+   \;
+}
+.images img{
+    width: 100%;
+}
+.wrapper.style article{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+    background-color: white;
+    margin-bottom: 5em;
+}
+.content{
+    width: 52%;
+    display: inline-block;
+    padding: 1em 2em 0 2em;
+}
+.content h1{
+    font-size: 1.5em;
+    line-height: 2em;
+}
+.content p{
+    line-height: 1.9em;
+}
+.content ul li a{
+
+    color: #51baa4;
+    font-size: 1em;
+    border: 1px solid #51baa4;
+    font-family: arial;
+    padding: 12px 43px;
+    border-radius: 40px;
+    font-weight: bold; 
+    display: inline-block;  
+}
+.wrapper.style article:nth-child(2){
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+header.narrow{
+    text-align: center;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+}
+.wrapper.special{
+    margin:8em 0 0 0em;
+}
+header h2{
+    font-size: 2.5em;
+}
+.image-grid{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.image{
+    width: 25%;
+    margin: 0px;
+}
+.image-grid .image img{
+    width: 100%;
+    height: 100%;
+}
+ul.actions{
+    margin: 3.9em auto;
+    text-align: center;
+}
+ul.actions li a{
+    font-size: 1.3em;
+    color: #51baa4;
+    border: 1px solid #51baa4;
+    border-radius: 40px;
+    padding: 1em 2em;
+    text-transform: uppercase;
+}
+.style3{
+    background-image: url(../img/pic11.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    color: white;
+    padding: 5em 0;
+}
+.style ul.actions{
+    margin-bottom: 0;
+}
+.style4{
+    background-color: #1e2832;
+    color: white;
+    padding: 5em 0;
+    text-align: center;
+}
+input[type="text"] , input[type="email"]{
+    background-color: #29323c;
+    border: none;
+    width: 35%;
+    height: 50px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 15px;
+}
+::-webkit-input-placeholder{
+    font-size: 16px;
+    color: white;
+}
+::-moz-placeholder{
+    font-size: 16px;
+    color: white;
+}
+::-webkit-textarea-placeholder{
+    font-size: 16px;
+    color: white;
+}
+textarea {
+    width: 73.2%;
+    border: none;
+    text-transform: capitalize;
+    background-color: #29323c;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+}
+ul.actions li{
+    display: inline-block;
+    padding: 0 1em 0 0;
+}
+ul.actions li input[type="submit"]{
+    border: 2px solid #51baa4;
+    border-radius:40px;
+    width: 147px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #51baa4;
+    cursor: pointer;
+
+}
+ul.actions li input[type="submit"]:hover{
+    color: black;
+}
+ul.actions li input[type="reset"]{
+    border: 2px solid white;
+    border-radius:40px;
+    width: 147px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+ul.actions li input[type="reset"]:hover{
+    color: black;
+}
+.line{
+    background-color: #343d46;
+    width: 100%;
+    height: 1px;
+}
+footer{
+    background-color: #1e2832;
+    text-align: center;
+    color: #a5a9ad;
+    padding-bottom: 2em;
+}
+footer p{
+    font-size: 12px;
+}
+footer p a{
+    color: #a5a9ad;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+ul.social li{
+    display: inline-block;
+    padding-right: 2em;
+}
+ul.social{
+    text-align: center;
+    margin-bottom: 2em;
+}
+ul.social li:last-child{
+    padding-right: 0;
+}
+ul.social li a {
+    color: #a5a9ad;
+}
+@media only screen and (max-width: 1040px) {
+    .feature .inner{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .feature .inner{
+        width: 100%;
+    }
+    .feature .images{
+        width: 100%;
+    }
+}
